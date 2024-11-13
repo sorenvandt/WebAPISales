@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "dba74212-5739-4c3c-9fb7-e6100e6116eb",
+		"name": "SalesCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "30936514-dba74212-5739-4c3c-9fb7-e6100e6116eb"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "9bd6405f-4f55-4a8f-b79e-dd09f875ca32",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"UserId\": 1,\r\n    \"Username\": \"Soren\",\r\n    \"Email\": \"sorenvr@hotmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
